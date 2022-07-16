@@ -1,0 +1,73 @@
+* {
+    background-color: black;
+}
+.container{
+    max-width: 80%;
+    background-color: red;
+    margin: auto;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+.container h1{
+    /* max-width: 80%; */
+    background-color: red;
+    font-size: 2cm;
+    font-style: inherit;
+    color: gold;
+    text-align: center;
+}
+.container2{
+    max-width: 80%;
+    background-color: orange;
+    margin: auto;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding-bottom: 0.5cm;
+
+}
+.container2 p{
+    background-color: orange;
+    font-size: 1cm;
+    text-align: center;
+    padding: 0.5cm;
+}
+form{
+    background-color: orange;
+    display: block;
+    text-align: center;
+    margin: auto;
+    /* border: 4px solid red;
+    border-radius: 60px; */
+}
+input, textarea{
+    background-color: white;
+    font-size: 22px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    margin: 11px;
+    padding: 7px;
+    
+}
+
+.inside{
+    background-color: orange;
+    padding: 2cm;
+    border: 4px;
+    border-radius: 10px;
+}
+
+.container2 button{
+    font-size: 1cm;
+    background-color: rgb(250, 187, 71);
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* INSERT INTO `data` (`username`, `name`, `age`, `gender`, `gmail`, `phone`, `other`, `sno`, `date`) VALUES ('Deadliest7', 'Jafar Dahodwala', '18', '', 'jafardahod7@gmail.com', '7045015322', 'This is my first website and i am gonna rock\r\n\r\n\r\nGod is great', '1', current_timestamp()); */
